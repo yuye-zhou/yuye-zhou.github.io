@@ -10,8 +10,8 @@ body {
 
 /* Navigation */
 nav {
-  background: #003262;
-  padding: 10px 0;
+  background: #003262; /* Berkeley blue */
+  padding: 12px 0;
 }
 nav ul {
   list-style: none;
@@ -21,7 +21,7 @@ nav ul {
   padding: 0;
 }
 nav ul li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 nav ul li a {
   color: white;
@@ -36,21 +36,39 @@ nav ul li a:hover {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: #e6f0ff;
+  background: #e6f0ff; /* light blue background */
 }
 header h1 {
-  margin: 0;
+  margin: 10px 0 5px;
   font-size: 2.5em;
   color: #003262;
 }
 header p {
-  margin: 10px 0;
+  margin: 5px 0;
+  color: #333;
+}
+header a {
+  color: #0063b1;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #003262;
+  margin-bottom: 15px;
 }
 
 /* Sections */
 section {
   max-width: 900px;
-  margin: 20px auto;
+  margin: 25px auto;
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -68,4 +86,5 @@ footer {
   background: #003262;
   color: white;
   margin-top: 30px;
+  font-size: 0.9em;
 }
