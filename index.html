@@ -12,9 +12,9 @@
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#publications">Publications</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -25,6 +25,7 @@
     <h1>Yuye (Julia) Zhou</h1>
     <p>Ph.D. Student · UC Berkeley · Geospatial Science & Environmental Planning</p>
     <p>
+      <a href="https://ced.berkeley.edu/people/yuye-julia-zhou" target="_blank">Berkeley Profile</a> |
       <a href="https://scholar.google.com/citations?user=bRPBrfYAAAAJ&hl=en" target="_blank">Google Scholar</a> |
       <a href="https://www.linkedin.com/in/yuyezhou/" target="_blank">LinkedIn</a> |
       <a href="mailto:yuyezhou@berkeley.edu">Email</a>
@@ -34,9 +35,9 @@
   <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a Ph.D. researcher at UC Berkeley specializing in LiDAR, remote sensing, and multimodal perception. 
-    My research combines large-scale spatial data processing, causal machine learning, and multimodal urban sensing 
-    to enhance autonomous vehicle perception and urban resilience studies.</p>
+    <p>I am a Ph.D. researcher at UC Berkeley specializing in <b>LiDAR, remote sensing, and multimodal perception</b>. 
+    My work focuses on developing scalable pipelines for urban-scale spatial data, integrating causal machine learning, 
+    and advancing multimodal perception for <b>autonomous vehicles</b> and resilient cities.</p>
   </section>
 
   <!-- Education -->
@@ -44,28 +45,61 @@
     <h2>Education</h2>
     <ul>
       <li><b>University of California, Berkeley</b> (2024–Present) — Ph.D. in Geospatial Science & Environmental Planning</li>
-      <li><b>Nanjing University</b> (2021–2024) — M.S. in GIS & Urban Planning, GPA 3.93/4.0</li>
+      <li><b>Nanjing University</b> (2021–2024) — M.S. in GIS & Urban Planning</li>
       <li><b>Zhejiang University</b> (2016–2021) — B.Eng. in Urban Planning (Highest Distinction), Minor in Law</li>
     </ul>
   </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <p><b>Programming:</b> Python, SQL, C++, MATLAB, R</p>
-    <p><b>Geospatial:</b> ArcGIS Pro, QGIS, PDAL, Google Earth Engine</p>
-    <p><b>ML/AI:</b> CNN, GNN, Causal ML, Multimodal Fusion, LLMs, XAI</p>
-    <p><b>Tools:</b> Git, Tableau, Illustrator, Photoshop, LaTeX</p>
-  </section>
-
-  <!-- Projects -->
+  <!-- Research & Projects -->
   <section id="projects">
     <h2>Research & Projects</h2>
-    <ul>
-      <li><b>Multimodal Urban Perception</b> — Fusion of LiDAR, imagery, and satellite data for robust AV perception.</li>
-      <li><b>Large-Scale LiDAR Processing</b> — Built scalable pipelines for Sky View Factor and occlusion mapping in San Francisco.</li>
-      <li><b>AI-Agent Framework</b> — Developed agent-based simulations for human–environment interactions, presented at ACSP 2025.</li>
-    </ul>
+
+    <h3>Autonomous Systems & Perception</h3>
+    <div class="card">
+      <p><b>Multimodal Urban Perception for Autonomous Systems</b> (UC Berkeley, Jan 2025– )</p>
+      <ul>
+        <li>Developed a causal graph fusion framework integrating <b>LiDAR</b>, panoramic imagery, and satellite data.</li>
+        <li>Designed joint evaluation protocols for <b>dynamic robustness</b> and <b>static scene understanding</b> (SVF, occlusion).</li>
+        <li>Produced interpretable modality attributions to enhance safety-critical perception reliability.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><b>Large-Scale LiDAR Processing for AV Line-of-Sight Analysis</b> (UC Berkeley, Oct 2024– )</p>
+      <ul>
+        <li>Built scalable <b>Python pipelines</b> to process 900+ LiDAR (LAZ) files in San Francisco, extended to 10+ U.S. cities.</li>
+        <li>Computed <b>Sky View Factor</b> and quantified occlusions from urban morphology for AV sensor placement.</li>
+        <li>Produced high-resolution DSM/DEMs for line-of-sight and coverage validation.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><b>Autonomous Vehicle Collision Data Analysis</b> (2025– )</p>
+      <ul>
+        <li>Analyzed <b>California DMV AV crash reports</b> and geospatial infrastructure data.</li>
+        <li>Engineered features from <b>road geometry, visibility, and infrastructure</b> to identify high-risk zones.</li>
+        <li>Developed insights for safer AV deployment and urban design improvements.</li>
+      </ul>
+    </div>
+
+    <h3>Urban Environment & Resilience</h3>
+    <div class="card">
+      <p><b>Multimodal AI-Agent Framework for Urban Simulation</b> (UC Berkeley, Feb 2025– )</p>
+      <ul>
+        <li>Designed an <b>AI-agent framework</b> to simulate human-environment interactions at city scale.</li>
+        <li>Fused <b>LiDAR morphology, street-view imagery, and satellite data</b> for agent perception.</li>
+        <li>Integrated <b>LLM-driven behavioral profiles</b> to create diverse, realistic simulations.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><b>Green Schoolyard Equity & Shade Access</b> (UC Berkeley, 2024– )</p>
+      <ul>
+        <li>Mapped and analyzed <b>shade equity</b> across New Mexico schoolyards using GIS and remote sensing.</li>
+        <li>Integrated <b>tree canopy, built environment, and demographic data</b> to assess exposure disparities.</li>
+        <li>Collaborated with <b>Green Schoolyards America</b> to inform equitable design interventions.</li>
+      </ul>
+    </div>
   </section>
 
   <!-- Publications -->
@@ -76,6 +110,15 @@
       <li>Zhou, Y., Liang, L., & Fan, H. (2025). <i>A multimodal AI-agent framework for simulating human-centric cumulative exposure to urban heat</i>. ACSP 2025.</li>
       <li>Cai, W., ..., Zhou, Y., Gong, P. (2025). <i>The 2025 China report of the Lancet Countdown on health and climate change</i>. <b>Lancet Public Health</b>.</li>
     </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><b>Programming:</b> Python, SQL, C++, MATLAB, R</p>
+    <p><b>Geospatial:</b> ArcGIS Pro, QGIS, PDAL, Google Earth Engine</p>
+    <p><b>ML/AI:</b> CNN, GNN, Causal ML, Multimodal Fusion, LLMs, XAI</p>
+    <p><b>Tools:</b> Git, Tableau, Illustrator, Photoshop, LaTeX</p>
   </section>
 
   <!-- Contact -->
