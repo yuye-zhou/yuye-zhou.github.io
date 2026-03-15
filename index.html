@@ -12,18 +12,17 @@
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#education">Education</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Header -->
   <header>
-    <img src="withcat.jpg" alt="Yuye Zhou" class="profile-pic">
+    <img src="withcat.jpg" alt="Yuye (Julia) Zhou" class="profile-pic">
     <h1>Yuye (Julia) Zhou</h1>
-    <p>Ph.D. Student · UC Berkeley · Geospatial Science & Environmental Planning</p>
+    <p>Ph.D. Student in Landscape Architecture & Environmental Planning · UC Berkeley</p>
     <p>
       <a href="https://ced.berkeley.edu/people/yuye-julia-zhou" target="_blank">Berkeley Profile</a> |
       <a href="https://scholar.google.com/citations?user=bRPBrfYAAAAJ&hl=en" target="_blank">Google Scholar</a> |
@@ -35,102 +34,120 @@
   <!-- About -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a Ph.D. researcher at UC Berkeley specializing in <b>LiDAR, remote sensing, and multimodal perception</b>. 
-    My work focuses on developing scalable pipelines for urban-scale spatial data, integrating causal machine learning, 
-    and advancing multimodal perception for <b>autonomous vehicles</b> and resilient cities.</p>
+    <p>
+      I am a Ph.D. student in <b>Landscape Architecture and Environmental Planning</b> at the
+      <b>University of California, Berkeley</b>. My research focuses on how urban environments are
+      experienced, measured, and unevenly distributed across communities.
+    </p>
+    <p>
+      I am especially interested in questions of <b>urban heat, shade, vegetation, air pollution,
+      visibility, and environmental justice</b>. Much of my work explores how new forms of geospatial
+      data — including <b>LiDAR, street-view imagery, satellite observations, and mobility data</b> —
+      can help us better understand the everyday environmental conditions people encounter in cities.
+    </p>
+    <p>
+      Methodologically, I work across <b>GIS, remote sensing, computer vision, and interpretable machine learning</b>.
+      My goal is to develop human-centered and spatially explicit approaches that can support more equitable,
+      climate-responsive planning and design.
+    </p>
   </section>
 
   <!-- Education -->
   <section id="education">
     <h2>Education</h2>
     <ul>
-      <li><b>University of California, Berkeley</b> (2024–Present) — Ph.D. in Geospatial Science & Environmental Planning</li>
-      <li><b>Nanjing University</b> (2021–2024) — M.S. in GIS & Urban Planning</li>
-      <li><b>Zhejiang University</b> (2016–2021) — B.Eng. in Urban Planning (Highest Distinction), Minor in Law</li>
+      <li><b>University of California, Berkeley</b> (2024–Present)<br>Ph.D. in Landscape Architecture & Environmental Planning</li>
+      <li><b>Nanjing University</b> (2021–2024)<br>M.S. in GIS & Urban Planning</li>
+      <li><b>Zhejiang University</b> (2016–2021)<br>B.Eng. in Urban Planning (Highest Distinction), Minor in Law</li>
     </ul>
   </section>
 
-  <!-- Research & Projects -->
+  <!-- Research -->
+  <section id="research">
+    <h2>Research Focus</h2>
+    <div class="card">
+      <p>
+        My current research brings together three interconnected directions:
+      </p>
+      <ul>
+        <li><b>Urban climate and environmental exposure</b>, especially heat, pollution, and the unequal distribution of environmental burdens and benefits;</li>
+        <li><b>Three-dimensional urban form and vegetation</b>, including sky view factor, shade, canopy structure, and volumetric greenness;</li>
+        <li><b>Geospatial AI and multimodal sensing</b>, using LiDAR, satellite imagery, street-view data, and computational models to better represent lived urban environments.</li>
+      </ul>
+      <p>
+        Across these areas, I am interested in how spatial methods can move beyond coarse surface descriptions
+        and better capture the environments people actually see, feel, and move through.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
   <section id="projects">
-    <h2>Research & Projects</h2>
+    <h2>Selected Projects</h2>
 
-    <h3>Autonomous Systems & Perception</h3>
     <div class="card">
-      <p><b>Multimodal Urban Perception for Autonomous Systems</b> (UC Berkeley, Jan 2025– )</p>
-      <ul>
-        <li>Developed a causal graph fusion framework integrating <b>LiDAR</b>, panoramic imagery, and satellite data.</li>
-        <li>Designed joint evaluation protocols for <b>dynamic robustness</b> and <b>static scene understanding</b> (SVF, occlusion).</li>
-        <li>Produced interpretable modality attributions to enhance safety-critical perception reliability.</li>
-      </ul>
+      <h3>Pedestrian-Scale Sky View Factor Mapping</h3>
+      <p><b>UC Berkeley · 2025–Present</b></p>
+      <p>
+        This project develops a pedestrian-centered framework for estimating <b>Sky View Factor (SVF)</b>
+        from street-view imagery and 3D reconstruction. By comparing image-based estimates with LiDAR-derived
+        benchmarks and field validation, I aim to better represent the sky conditions people actually experience
+        at street level.
+      </p>
     </div>
 
     <div class="card">
-      <p><b>Large-Scale LiDAR Processing for AV Line-of-Sight Analysis</b> (UC Berkeley, Oct 2024– )</p>
-      <ul>
-        <li>Built scalable <b>Python pipelines</b> to process 900+ LiDAR (LAZ) files in San Francisco, extended to 10+ U.S. cities.</li>
-        <li>Computed <b>Sky View Factor</b> and quantified occlusions from urban morphology for AV sensor placement.</li>
-        <li>Produced high-resolution DSM/DEMs for line-of-sight and coverage validation.</li>
-      </ul>
+      <h3>Large-Scale LiDAR Processing for Urban Environmental Analysis</h3>
+      <p><b>UC Berkeley · 2024–Present</b></p>
+      <p>
+        I am building workflows to process large LiDAR datasets for U.S. cities in order to extract urban-form
+        and vegetation metrics relevant to environmental exposure. This includes generating surface models and
+        analyzing street enclosure, canopy structure, and other three-dimensional characteristics of urban space.
+      </p>
     </div>
 
     <div class="card">
-      <p><b>Autonomous Vehicle Collision Data Analysis</b> (2025– )</p>
-      <ul>
-        <li>Analyzed <b>California DMV AV crash reports</b> and geospatial infrastructure data.</li>
-        <li>Engineered features from <b>road geometry, visibility, and infrastructure</b> to identify high-risk zones.</li>
-        <li>Developed insights for safer AV deployment and urban design improvements.</li>
-      </ul>
-    </div>
-
-    <h3>Urban Environment & Resilience</h3>
-    <div class="card">
-      <p><b>Multimodal AI-Agent Framework for Urban Simulation</b> (UC Berkeley, Feb 2025– )</p>
-      <ul>
-        <li>Designed an <b>AI-agent framework</b> to simulate human-environment interactions at city scale.</li>
-        <li>Fused <b>LiDAR morphology, street-view imagery, and satellite data</b> for agent perception.</li>
-        <li>Integrated <b>LLM-driven behavioral profiles</b> to create diverse, realistic simulations.</li>
-      </ul>
+      <h3>3D Vegetation Structure and Environmental Equity</h3>
+      <p><b>UC Berkeley · 2025–Present</b></p>
+      <p>
+        This work examines how conventional two-dimensional measures of urban greenness can obscure important
+        differences in the vertical structure of vegetation. I am interested in how volumetric and pedestrian-scale
+        measures of greenness can reveal hidden inequities in shade, cooling, and everyday environmental experience.
+      </p>
     </div>
 
     <div class="card">
-      <p><b>Green Schoolyard Equity & Shade Access</b> (UC Berkeley, 2024– )</p>
-      <ul>
-        <li>Mapped and analyzed <b>shade equity</b> across New Mexico schoolyards using GIS and remote sensing.</li>
-        <li>Integrated <b>tree canopy, built environment, and demographic data</b> to assess exposure disparities.</li>
-        <li>Collaborated with <b>Green Schoolyards America</b> to inform equitable design interventions.</li>
-      </ul>
+      <h3>Mobility-Based Heat Exposure Modeling</h3>
+      <p><b>UC Berkeley · 2025–Present</b></p>
+      <p>
+        This project explores how people experience heat not only where they live, but also through their daily
+        movements. By integrating mobility data, urban form, and thermal conditions, I aim to develop more
+        human-centered measures of cumulative environmental exposure.
+      </p>
     </div>
-  </section>
 
-  <!-- Publications -->
-  <section id="publications">
-    <h2>Selected Publications</h2>
-    <ul>
-      <li>Zhou, Y., Liang, L., & Cai, W. (2026). <i>Multimodal urban perception under extreme city conditions</i>. (In submission to CVPR 2026)</li>
-      <li>Zhou, Y., Liang, L., & Fan, H. (2025). <i>A multimodal AI-agent framework for simulating human-centric cumulative exposure to urban heat</i>. ACSP 2025.</li>
-      <li>Cai, W., ..., Zhou, Y., Gong, P. (2025). <i>The 2025 China report of the Lancet Countdown on health and climate change</i>. <b>Lancet Public Health</b>.</li>
-    </ul>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <p><b>Programming:</b> Python, SQL, C++, MATLAB, R</p>
-    <p><b>Geospatial:</b> ArcGIS Pro, QGIS, PDAL, Google Earth Engine</p>
-    <p><b>ML/AI:</b> CNN, GNN, Causal ML, Multimodal Fusion, LLMs, XAI</p>
-    <p><b>Tools:</b> Git, Tableau, Illustrator, Photoshop, LaTeX</p>
+    <div class="card">
+      <h3>Green Schoolyards and Shade Equity</h3>
+      <p><b>UC Berkeley · 2024–Present</b></p>
+      <p>
+        In collaboration with partners working on school environments, I analyze shade access and greening disparities
+        across schoolyards using GIS and remote sensing. This work supports more equitable design strategies for
+        reducing children’s heat exposure and improving outdoor environmental quality.
+      </p>
+    </div>
   </section>
 
   <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:yuyezhou@berkeley.edu">yuyezhou@berkeley.edu</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/yuyezhou/" target="_blank">Profile</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yuyezhou/" target="_blank">yuyezhou</a></p>
+    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=bRPBrfYAAAAJ&hl=en" target="_blank">Scholar Profile</a></p>
   </section>
 
   <!-- Footer -->
   <footer>
-    © 2025 Yuye (Julia) Zhou · UC Berkeley
+    © 2026 Yuye (Julia) Zhou · UC Berkeley
   </footer>
 </body>
 </html>
