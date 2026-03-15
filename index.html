@@ -14,6 +14,7 @@
       <li><a href="#education">Education</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#service">Experience & Service</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -23,6 +24,7 @@
     <img src="Profile.jpg" alt="Yuye (Julia) Zhou" class="profile-pic">
     <h1>Yuye (Julia) Zhou</h1>
     <p>Ph.D. Student in Landscape Architecture & Environmental Planning · UC Berkeley</p>
+    <p>Urban Climate · Geospatial AI · Remote Sensing · Environmental Justice</p>
     <p>
       <a href="https://ced.berkeley.edu/people/yuye-julia-zhou" target="_blank">Berkeley Profile</a> |
       <a href="https://scholar.google.com/citations?user=bRPBrfYAAAAJ&hl=en" target="_blank">Google Scholar</a> |
@@ -35,20 +37,18 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am a Ph.D. student in <b>Landscape Architecture and Environmental Planning</b> at the
-      <b>University of California, Berkeley</b>. My research focuses on how urban environments are
-      experienced, measured, and unevenly distributed across communities.
+      I am a Ph.D. student in the <b>Landscape Architecture and Environmental Planning</b> program at
+      <b>the University of California, Berkeley</b>. My research sits at the intersection of
+      <b>urban climate, geospatial data science, remote sensing, computer vision, and environmental justice</b>.
     </p>
     <p>
-      I am especially interested in questions of <b>urban heat, shade, vegetation, air pollution,
-      visibility, and environmental justice</b>. Much of my work explores how new forms of geospatial
-      data — including <b>LiDAR, street-view imagery, satellite observations, and mobility data</b> —
-      can help us better understand the everyday environmental conditions people encounter in cities.
+      I develop computational methods to understand how the built environment, vegetation structure, and urban form
+      shape human experiences of <b>heat, pollution, shade, visibility, and everyday environmental exposure</b>.
+      My work combines <b>LiDAR, street-view imagery, satellite observations, GIS, and causal / machine learning methods</b>
+      to produce high-resolution, human-centered measures of urban environments.
     </p>
     <p>
-      Methodologically, I work across <b>GIS, remote sensing, computer vision, and interpretable machine learning</b>.
-      My goal is to develop human-centered and spatially explicit approaches that can support more equitable,
-      climate-responsive planning and design.
+      More broadly, I am interested in how geospatial AI can support <b>healthier, more equitable, and more climate-resilient cities</b>.
     </p>
   </section>
 
@@ -62,22 +62,17 @@
     </ul>
   </section>
 
-  <!-- Research -->
+  <!-- Research Interests -->
   <section id="research">
-    <h2>Research Focus</h2>
+    <h2>Research Interests</h2>
     <div class="card">
-      <p>
-        My current research brings together three interconnected directions:
-      </p>
       <ul>
-        <li><b>Urban climate and environmental exposure</b>, especially heat, pollution, and the unequal distribution of environmental burdens and benefits;</li>
-        <li><b>Three-dimensional urban form and vegetation</b>, including sky view factor, shade, canopy structure, and volumetric greenness;</li>
-        <li><b>Geospatial AI and multimodal sensing</b>, using LiDAR, satellite imagery, street-view data, and computational models to better represent lived urban environments.</li>
+        <li><b>Urban Climate & Environmental Exposure:</b> heat exposure, thermal inequity, air pollution, cumulative human-environment exposure</li>
+        <li><b>3D Urban Form & Vegetation:</b> LiDAR-based urban morphology, tree canopy structure, volumetric greenness, sky view factor</li>
+        <li><b>Geospatial AI & Multimodal Sensing:</b> integration of satellite imagery, street-view images, LiDAR, and mobility data</li>
+        <li><b>Causal & Explainable Machine Learning:</b> interpretable modeling of urban environmental processes and socio-spatial disparities</li>
+        <li><b>Environmental Justice & Planning:</b> equitable access to shade, cooling, green infrastructure, and healthier urban environments</li>
       </ul>
-      <p>
-        Across these areas, I am interested in how spatial methods can move beyond coarse surface descriptions
-        and better capture the environments people actually see, feel, and move through.
-      </p>
     </div>
   </section>
 
@@ -86,54 +81,77 @@
     <h2>Selected Projects</h2>
 
     <div class="card">
-      <h3>Pedestrian-Scale Sky View Factor Mapping</h3>
+      <h3>Pedestrian-Scale Sky View Factor Mapping with Street View and LiDAR</h3>
       <p><b>UC Berkeley · 2025–Present</b></p>
-      <p>
-        This project develops a pedestrian-centered framework for estimating <b>Sky View Factor (SVF)</b>
-        from street-view imagery and 3D reconstruction. By comparing image-based estimates with LiDAR-derived
-        benchmarks and field validation, I aim to better represent the sky conditions people actually experience
-        at street level.
-      </p>
+      <ul>
+        <li>Developing a human-centered framework to estimate <b>Sky View Factor (SVF)</b> from street-view imagery and 3D urban reconstruction.</li>
+        <li>Combining <b>monocular geometry, panoramic imagery, and LiDAR benchmarks</b> to validate pedestrian-level visibility of the sky.</li>
+        <li>Supporting urban climate, radiation, and thermal comfort studies with scalable street-level environmental indicators.</li>
+      </ul>
     </div>
 
     <div class="card">
       <h3>Large-Scale LiDAR Processing for Urban Environmental Analysis</h3>
       <p><b>UC Berkeley · 2024–Present</b></p>
-      <p>
-        I am building workflows to process large LiDAR datasets for U.S. cities in order to extract urban-form
-        and vegetation metrics relevant to environmental exposure. This includes generating surface models and
-        analyzing street enclosure, canopy structure, and other three-dimensional characteristics of urban space.
-      </p>
+      <ul>
+        <li>Building scalable <b>Python-based workflows</b> to process large LiDAR collections for U.S. cities.</li>
+        <li>Generating high-resolution <b>DSM/DTM products</b> and extracting metrics related to urban morphology, vegetation structure, and visibility.</li>
+        <li>Using 3D data to study street enclosure, shade potential, tree structure, and neighborhood-scale environmental conditions.</li>
+      </ul>
     </div>
 
     <div class="card">
-      <h3>3D Vegetation Structure and Environmental Equity</h3>
+      <h3>3D Vegetation Structure, Shade, and Environmental Equity</h3>
       <p><b>UC Berkeley · 2025–Present</b></p>
-      <p>
-        This work examines how conventional two-dimensional measures of urban greenness can obscure important
-        differences in the vertical structure of vegetation. I am interested in how volumetric and pedestrian-scale
-        measures of greenness can reveal hidden inequities in shade, cooling, and everyday environmental experience.
-      </p>
+      <ul>
+        <li>Investigating how <b>three-dimensional vegetation structure</b> changes the way urban greenness is measured and experienced.</li>
+        <li>Developing metrics beyond conventional 2D canopy cover to capture <b>vertical complexity, volumetric greenness, and pedestrian exposure</b>.</li>
+        <li>Connecting urban vegetation structure to questions of <b>distributional justice, cooling benefits, and greening inequities</b>.</li>
+      </ul>
     </div>
 
     <div class="card">
-      <h3>Mobility-Based Heat Exposure Modeling</h3>
+      <h3>Mobility-Based Heat Exposure and Human-Centered Urban Simulation</h3>
       <p><b>UC Berkeley · 2025–Present</b></p>
-      <p>
-        This project explores how people experience heat not only where they live, but also through their daily
-        movements. By integrating mobility data, urban form, and thermal conditions, I aim to develop more
-        human-centered measures of cumulative environmental exposure.
-      </p>
+      <ul>
+        <li>Designing computational frameworks to estimate how people experience <b>heat and environmental risk during daily mobility</b>.</li>
+        <li>Integrating <b>mobility patterns, urban form, thermal environments, and behavioral heterogeneity</b> into human-centered exposure models.</li>
+        <li>Exploring how AI-driven simulation can support more equitable and climate-responsive urban planning.</li>
+      </ul>
     </div>
 
     <div class="card">
-      <h3>Green Schoolyards and Shade Equity</h3>
+      <h3>Green Schoolyards, Shade Access, and Child Environmental Equity</h3>
       <p><b>UC Berkeley · 2024–Present</b></p>
-      <p>
-        In collaboration with partners working on school environments, I analyze shade access and greening disparities
-        across schoolyards using GIS and remote sensing. This work supports more equitable design strategies for
-        reducing children’s heat exposure and improving outdoor environmental quality.
-      </p>
+      <ul>
+        <li>Mapping and evaluating <b>shade access and greening disparities</b> across school environments using GIS and remote sensing.</li>
+        <li>Combining <b>tree canopy, built environment, and demographic data</b> to identify inequities in schoolyard heat exposure.</li>
+        <li>Collaborating with partners to support <b>evidence-based, equitable design interventions</b> for healthier school spaces.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience & Service -->
+  <section id="service">
+    <h2>Experience & Service</h2>
+
+    <div class="card">
+      <h3>Teaching</h3>
+      <ul>
+        <li><b>Graduate Student Instructor, GEOG C188 GIS</b> · UC Berkeley · Fall 2025<br>
+          Led lab sections, prepared tutorials, and graded assignments for undergraduate students in geospatial data analysis.
+        </li>
+        <li><b>Graduate Student Instructor, ESPM C289 Applied Remote Sensing</b> · UC Berkeley · Spring 2026<br>
+          Led lab sections, prepared tutorials, and graded assignments for graduate students.
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Academic Service</h3>
+      <ul>
+        <li>Peer reviewer for academic journals including <i>Scientific Reports</i>, <i>Applied Spatial Analysis and Policy</i>, and <i>Computational Urban Science</i>.</li>
+      </ul>
     </div>
   </section>
 
@@ -143,6 +161,7 @@
     <p>Email: <a href="mailto:yuyezhou@berkeley.edu">yuyezhou@berkeley.edu</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/yuyezhou/" target="_blank">yuyezhou</a></p>
     <p>Google Scholar: <a href="https://scholar.google.com/citations?user=bRPBrfYAAAAJ&hl=en" target="_blank">Scholar Profile</a></p>
+    <p>CV: <a href="sandbox:/mnt/data/CV_ZHOU_YUYE_UCB_research.pdf" target="_blank">Download CV</a></p>
   </section>
 
   <!-- Footer -->
